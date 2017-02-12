@@ -1,1 +1,2 @@
-# DynamicTab
+# DynamicTab #
+![](doc/img/show.gif)

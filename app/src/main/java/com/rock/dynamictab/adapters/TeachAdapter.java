@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.rock.dynamictab.R;
 import com.rock.dynamictab.callback.ItemTouchHelperAdapterCallback;
-import com.rock.rock.recyclerviewtorecyclerview.R;
 
 import java.util.Collections;
 import java.util.List;

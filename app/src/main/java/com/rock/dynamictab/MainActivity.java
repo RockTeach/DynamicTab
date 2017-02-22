@@ -19,7 +19,6 @@ import android.widget.TextView;
 
 import com.rock.dynamictab.adapters.TeachAdapter;
 import com.rock.dynamictab.callback.ItemTouchCallback;
-import com.rock.rock.recyclerviewtorecyclerview.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -82,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements TeachAdapter.OnIt
                 break;
         }
     }
+
 
 
 
@@ -224,7 +224,7 @@ public class MainActivity extends AppCompatActivity implements TeachAdapter.OnIt
 
     public void animationFromTo(CharSequence text, final int position, final boolean srcToDst, int xFrom, int xTo, int yFrom, int yTo){
         final WindowManager windowManager = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
-        final View layout = LayoutInflater.from(this).inflate(R.layout.src_to_dst, null);
+        final View layout = LayoutInflater.from(this).inflate(R.layout.src_to_dst,null);
         TextView textView = (TextView) layout.findViewById(R.id.teach_dema);
         int margin = (int) (getResources().getDisplayMetrics().density * 10);
         ((LinearLayout.LayoutParams) textView.getLayoutParams()).bottomMargin = margin;
